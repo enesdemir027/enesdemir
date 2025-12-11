@@ -1,75 +1,95 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Enes Demir - GitHub Profile</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f9; color: #333; padding: 20px; }
-    h1, h2, h3 { color: #4CAF50; }
-    h1 { font-size: 2.5em; }
-    h2 { margin-top: 1.5em; }
-    p { margin: 10px 0; }
-    ul { margin: 10px 0 20px 20px; }
-    a { color: #2196F3; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .emoji { font-size: 1.2em; }
-    hr { border: 0; border-top: 1px solid #ccc; margin: 20px 0; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enes Demir - Yazılım Geliştirici Profili</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; background-color: #ffffff; color: #24292e; padding: 30px; max-width: 900px; margin: 0 auto; }
+        h1 { font-size: 2.5em; color: #0366d6; border-bottom: 2px solid #eaecef; padding-bottom: 10px; margin-bottom: 20px; }
+        h2 { font-size: 1.8em; color: #24292e; margin-top: 2em; border-left: 5px solid #0366d6; padding-left: 10px; }
+        p, ul { margin: 15px 0; }
+        ul { list-style-type: none; padding: 0; }
+        ul li { background: #f6f8fa; padding: 10px 15px; margin-bottom: 8px; border-radius: 6px; border: 1px solid #eaecef; display: inline-block; margin-right: 10px; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; color: #005cc5; }
+        .section-separator { border: 0; border-top: 1px dashed #eaecef; margin: 30px 0; }
+        .highlight { color: #0366d6; font-weight: bold; }
+        .intro-text { font-size: 1.1em; color: #586069; }
+        .project-card { border: 1px solid #eaecef; padding: 15px; border-radius: 6px; margin-bottom: 20px; background-color: #f6f8fa; }
+        .project-card h3 { color: #24292e; margin-top: 0; }
+    </style>
 </head>
 <body>
 
-<h1>👋 Selam Aleyküm, Ben Enes Demir</h1>
-<p><strong>enesdemir027</strong></p>
+<h1>✨ Enes Demir - Yazılım Geliştiricisi</h1>
+<p class="intro-text"><strong>GitHub Kullanıcı Adı:</strong> enesdemir027</p>
 
-<p>Ben 19 yaşındayım ve frontend geliştirme konusunda tutkulu bir yazılımcıyım. 💻✨<br>
-Kodlamayı kendi kendime öğreniyorum, her satır kodda bir hayal kuruyor, her projede bir yolculuğa çıkıyorum. 🚀<br>
-React.js ⚛️, Vue.js 🖖 ve GSAP ✨ ile interaktif ve kullanıcı dostu projeler yaratıyorum;<br>
-PHP 🐘, Python 🐍, MySQL 🗄️, Arduino ⚡ ve HTML/CSS 🎨 ile sınırlarımı genişletiyorum.</p>
+<h2>🚀 Profesyonel Özet</h2>
+<p class="intro-text">
+    19 yaşında, <span class="highlight">frontend ve full-stack geliştirme</span> alanlarına tutkuyla bağlı bir yazılımcıyım.
+    Yazılım yeteneklerimi <span class="highlight">otodidakt</span> (kendi kendine öğrenen) bir yaklaşımla geliştirmekteyim.
+    Kullanıcı deneyimini merkeze alan, <span class="highlight">interaktif ve performans odaklı</span> projeler geliştirmeye odaklanıyorum.
+</p>
 
-<p>Projelerimde problem çözmek bir şiir gibi, yenilikçi fikirlerim rüzgar gibi,<br>
-ve her yazdığım satır kod, geleceğe açılan bir pencere. 🌟<br>
-Açık kaynak topluluklarında katkı sağlamak, bilgimi paylaşmak ve sürekli öğrenmek hayatımın ritmi. 🤝💡</p>
+<p class="intro-text">
+    Özellikle <span class="highlight">React.js, Vue.js ve GSAP</span> ile dinamik web arayüzleri oluşturuyor;
+    backend ve sistem geliştirme alanlarında ise <span class="highlight">PHP, Python, MySQL ve Node.js</span> gibi teknolojilerle kapsamlı çözümler sunuyorum.
+    Sürekli öğrenmeyi ve <span class="highlight">açık kaynak topluluklarına katkı sağlamayı</span> temel bir prensip olarak benimsiyorum.
+</p>
 
-<p>Kod yazmak benim için sadece bir iş değil; bir tutku, bir macera,<br>
-ve her gün yeni bir hayal kurmak için bir fırsat. 🌱🔥😄🎉</p>
+<div class="section-separator"></div>
 
-<hr>
-
-<h2>💼 Üzerinde Çalıştığım Projeler</h2>
-<p>🔭 <strong>Siber Güvenlik & Exploit Geliştirme</strong><br>
-💻 Bu projede exploit geliştirme ve sızma testleri üzerine çalıştım.<br>
-<strong>Proje Adı:</strong> siber-exploit<br>
-🔗 <a href="project-link">Project Link</a></p>
-
-<hr>
-
-<h2>🛠️ Languages and Tools</h2>
+<h2>🛠️ Teknik Yetkinlikler ve Araçlar</h2>
 <ul>
-  <li>⚡ Arduino</li>
-  <li>🐍 Python</li>
-  <li>🐘 PHP</li>
-  <li>🗄️ MySQL</li>
-  <li>🌐 Node.js</li>
-  <li>☕ Kotlin</li>
-  <li>🐧 Linux</li>
-  <li>🔧 Git</li>
-  <li>🧪 Selenium</li>
-  <li>🌀 Unity</li>
-  <li>🟦 Flutter</li>
-  <li>🚀 Dart</li>
-  <li>🤖 Django</li>
-  <li>🔥 Flask</li>
-  <li>📱 React Native</li>
+    <li>Frontend: <span class="highlight">HTML5, CSS3, JavaScript (ES6+)</span>, React.js, Vue.js, GSAP</li>
+    <li>Backend: <span class="highlight">Python (Django, Flask)</span>, PHP, Node.js</li>
+    <li>Veritabanı: <span class="highlight">MySQL</span></li>
+    <li>Mobil: Flutter, Dart, React Native, Kotlin</li>
+    <li>Sistem & DevOps: Linux, Git, Arduino</li>
+    <li>Test & Diğer: Selenium, Unity</li>
 </ul>
 
-<hr>
+<div class="section-separator"></div>
 
-<h2>📫 Bana Ulaş</h2>
-<p>GitHub: <a href="https://github.com/enesdemir027">enesdemir027</a></p>
+<h2>💼 Öne Çıkan Projeler</h2>
 
-<hr>
+<div class="project-card">
+    <h3>🔭 Siber Güvenlik & Exploit Geliştirme Çalışmaları (siber-exploit)</h3>
+    <p>
+        Bu proje, siber güvenlik prensipleri, zafiyet analizi ve <span class="highlight">exploit geliştirme metodolojileri</span> üzerine odaklanmıştır.
+        Temel amaç, sistem zafiyetlerini keşfetme ve penetrasyon testlerinde kullanılan araçları anlama ve geliştirme yetkinliğini artırmaktır.
+    </p>
+    <p><strong>Teknolojiler:</strong> Python, Linux, Exploit Development Toolsets</p>
+    <p>🔗 <a href="project-link" target="_blank">Proje Bağlantısı (Detaylı İnceleme)</a></p>
+</div>
 
-<p><em>"Kod yazmak bir şiir gibidir; her satırında hayaller, her fonksiyonunda umut vardır." ✨</em></p>
+<div class="project-card">
+    <h3>🌐 Kullanıcı Etkileşimli Web Uygulaması</h3>
+    <p>
+        React.js ve GSAP kullanılarak geliştirilmiş, yüksek performanslı ve akıcı animasyonlara sahip dinamik bir kullanıcı arayüzü projesi.
+        Ölçeklenebilir bileşen mimarisi ve modern state yönetim prensipleri uygulanmıştır.
+    </p>
+    <p><strong>Teknolojiler:</strong> React.js, GSAP, Node.js</p>
+    <p>🔗 <a href="hypothetical-project-link" target="_blank">Proje Bağlantısı (Yakında)</a></p>
+</div>
+
+<div class="section-separator"></div>
+
+<h2>📧 İletişim ve Bağlantılar</h2>
+<p>
+    Profesyonel iş birliği ve katkıda bulunmak için benimle iletişime geçebilirsiniz.
+</p>
+<ul>
+    <li><span class="highlight">GitHub:</span> <a href="https://github.com/enesdemir027" target="_blank">enesdemir027</a></li>
+    <li><span class="highlight">E-Posta:</span> [e-posta adresinizi buraya ekleyin]</li>
+</ul>
+
+<div class="section-separator"></div>
+
+<p style="text-align: center; font-style: italic; color: #586069;">
+    "Kod, geleceğin dilidir; her satırı, yenilikçi bir çözümün temelidir." - Enes Demir
+</p>
 
 </body>
 </html>
